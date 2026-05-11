@@ -33,12 +33,13 @@ const GenerateImages = () => {
       if(data.success){
         setContent(data.content)
       }else{
-        toast.error(data.message)
+        toast.error(data.message || 'Failed to generate image')
       }
         } catch (error) {
-          toast.error(error.message)
+          toast.error(error.response?.data?.message || error.message || 'Failed to generate image')
+        } finally {
+          setLoading(false)
         }
-        setLoading(false)
       }
   return (
     <div className='h-full overflow-y-scroll p-6 flex items-start flex-wrap gap-4 text-slate-700'>

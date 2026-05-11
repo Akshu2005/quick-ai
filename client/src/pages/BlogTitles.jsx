@@ -135,3 +135,4 @@ const BlogTitles = () => {
 };
 
 export default BlogTitles;
+
