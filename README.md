@@ -6,6 +6,9 @@ QuickAI is a modern AI-powered SaaS web application that provides intelligent AI
 🔗 **GitHub Repository:**
 https://github.com/Akshu2005/quick-ai
 
+## Demo Video
+https://drive.google.com/file/d/1R5cLZcwvNjssBNyOd4lIHS6EAFtD8NO7/view?usp=drive_link
+
 ---
 
 # 🚀 Features
